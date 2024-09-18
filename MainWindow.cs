@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace ParallaxTextureCompositor
 {
-    public partial class Form1 : Form
+    public partial class MainWindow : Form
     {
         // Low / mid / high / steep
         public static bool[] enabledSets = { false, false, false, false };
@@ -14,7 +14,7 @@ namespace ParallaxTextureCompositor
 
         private Bitmap outputDisplacement;
         private Bitmap outputOcclusion;
-        public Form1()
+        public MainWindow()
         {
             InitializeComponent();
             InitLocalComponents();
